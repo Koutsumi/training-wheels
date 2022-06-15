@@ -1,0 +1,1 @@
+npm i cypress --save-dev

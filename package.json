@@ -1,0 +1,20 @@
+{
+  "name": "training-wheels",
+  "version": "1.0.0",
+  "description": "Projeto para aprender a manipular elementos com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "nodejs",
+    "training-wheels",
+    "qaninja"
+  ],
+  "author": "Fernanda M Baccarini",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.1.0"
+  }
+}
