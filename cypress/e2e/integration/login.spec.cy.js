@@ -1,6 +1,6 @@
 describe('tela de login', () => {
     it('deve logar com sucesso', () => {
-        cy.visit('https://training-wheels-qaninja.herokuapp.com/login');
+        cy.visit('/login');
 
         cy.get('h1[class="title"]')
             .should('have.text', "Formulário de Login");

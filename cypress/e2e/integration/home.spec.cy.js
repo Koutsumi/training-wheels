@@ -1,6 +1,6 @@
 describe('Teste da home page', () =>{
     it('deve axibir a home page', () => {
-        cy.visit('https://training-wheels-qaninja.herokuapp.com/');
+        cy.visit('/');
 
         cy.title()
             .should('be.equal', 'Training Wheels | QAninja');

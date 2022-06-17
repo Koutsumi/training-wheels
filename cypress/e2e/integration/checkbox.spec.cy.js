@@ -1,6 +1,6 @@
 describe('manipulando checkbox', () => {
     it('deve marcar o top 5 filmes da marvel', () => {
-        cy.visit('https://training-wheels-qaninja.herokuapp.com/checkboxes');
+        cy.visit('/checkboxes');
 
         const movies = [
             'avengers',

@@ -1,6 +1,9 @@
 describe('manipulando drag and drop', () =>{
+
+    before(() => {
+        cy.visit('/drag_and_drop');
+    })
     it('deve pegar o elemento cypress', () => {
-        cy.visit('https://training-wheels-qaninja.herokuapp.com/drag_and_drop');
 
         const dataTransfer = new DataTransfer();
 
@@ -12,7 +15,6 @@ describe('manipulando drag and drop', () =>{
     })
 
     it('deve pegar o elemento robot', () => {
-        cy.visit('https://training-wheels-qaninja.herokuapp.com/drag_and_drop');
 
         const dataTransfer = new DataTransfer();
 
